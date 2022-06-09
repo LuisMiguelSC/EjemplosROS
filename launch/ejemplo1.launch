@@ -1,0 +1,8 @@
+<launch>
+    <node name="servidor" pkg="sanchezcorralluismiguel" type="ejercicio10server.py"> 
+        
+    </node>
+    <node name="cliente" pkg="sanchezcorralluismiguel" type="ejercicio10client.py" output="screen" args="0.5 3"> 
+        
+    </node>
+</launch>
